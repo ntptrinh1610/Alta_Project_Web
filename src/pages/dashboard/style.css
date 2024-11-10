@@ -1,0 +1,157 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    width: 14%;
+    height: 100vh;
+}
+
+.middle{
+    display: flex;
+    width: 58%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.right{
+    display: flex;
+    width: 28%;
+    height: 100vh;
+    border: 1px solid blue;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 10px 2px gray;
+
+}
+
+.user{
+    width: 80%;
+    height: 11%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10px;
+    align-items: center;
+}
+
+
+.avatar{
+    width: 15%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2px solid rgb(92, 86, 86);
+    margin: 20px;
+}
+
+
+.info{
+    width: 90%;
+    /* height: 89%; */
+    height: 47%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid gray; */
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px 2px gray;
+}
+
+
+.calendar{
+    width: 80%;
+    /* height: 42%; */
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid gray; */
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px 2px gray;
+}
+
+.column {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column1 {
+    width: 20%;
+
+}
+
+.columnText{
+    width: 40%;
+}
+
+.columnEnd{
+    width: 20%;
+    text-align: right;
+}
+
+.columnFirst{
+    display: flex;
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    /* border: 2px solid blue; */
+
+    /* conic-gradient chi an cho background   */
+    background: conic-gradient(red 0deg 270deg, transparent 270deg 360deg);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.first-circle{
+    display: flex;
+    width: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    /* border: 2px solid blue; */
+
+    /* conic-gradient chi an cho background   */
+    background: conic-gradient(gray 0deg 90deg, transparent 90deg 360deg);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cover-circle{
+    display: flex;
+    width: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    /* border: 2px solid blue; */
+
+    /* conic-gradient chi an cho background   */
+    background: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.header{
+    display:flex
+    
+}
+

@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #f6f6f6;
+}   
+
+.left{
+    display: flex;
+    width: 41%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    width: 59%;
+    height: 100vh;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.innerLeft{
+    width: 80%;
+}
+
+.introductionImage{
+    width: 70%;
+    aspect-ratio: 1/1;
+}
+
+.introductionText{
+    position: absolute;
+    text-align: start;
+    z-index: 5;
+    /* can chinh vi tri cho text */
+    transform: translateX(55%);
+}
