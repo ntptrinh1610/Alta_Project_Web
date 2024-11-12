@@ -9,16 +9,23 @@
     height: 100vh;
 }
 
+.rightContainer{
+    width: 86%;
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+}
+
 .middle{
     display: flex;
-    width: 58%;
+    width: 70%;
     height: 100vh;
     flex-direction: column;
 }
 
 .right{
     display: flex;
-    width: 28%;
+    width: 30%;
     height: 100vh;
     border: 1px solid blue;
     flex-direction: column;
